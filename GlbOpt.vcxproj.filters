@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3ea9d6f7-5cd5-402d-aa16-b7e3bab1080d}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{dbbd95fc-a9fc-4883-aced-addb952f97a8}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{38a0a45f-159f-4dc5-b86d-b5390aa76d0c}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bidouble.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dcopy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dlaran.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="double.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glbopt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idmax.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idmin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idminbd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="optutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rndint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testfuns.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testprbs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testrun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xmalloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bidouble.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="blas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="double.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glbopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="optutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rndint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="testfuns.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="testprbs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xmalloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

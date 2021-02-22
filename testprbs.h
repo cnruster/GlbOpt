@@ -1,0 +1,81 @@
+#pragma once
+
+#include "myopt.h"
+
+typedef void PRB_NO_DIM();
+typedef void PRB_WITH_DIM(int D);
+
+extern int NP;
+extern double TOL;
+
+void BoundaryTest(int D);
+void SphereTest(int D);
+void AxisTest(int D);
+void SchwefelTest(int D);
+void RosenbrockTest(int D);
+void RastriginTest(int D);
+void GriewankTest(int D);
+void SumdiffpowTest(int D);
+void AckleyTest(int D);
+void BealeTest();
+void ColvilleTest();
+void EasomTest();
+void Hartmann1Test();
+void Hartmann2Test();
+void SixhumpTest();
+void LevyTest(int D);
+void MatyasTest();
+void PermTest(int D);
+void MichalewiczTest();
+void ZakharovTest(int D);
+void BraninTest();
+void Schwefel22Test(int D);
+void Schwefel21Test(int D);
+void StepTest(int D);
+void QuarticTest(int D);
+void KowalikTest();
+void Shekel5Test();
+void Shekel7Test();
+void Shekel10Test();
+void TripodTest();
+void DejongTest(int D);
+void AlpineTest(int D);
+void Schaffer6Test();
+void PathologicalTest(int D);
+void InvcosineTest(int D);
+void DamavandiTest();
+void EggholderTest();
+void BukinTest();
+void CrosslegtableTest();
+void CrossintrayTest();
+void SineenvelopeTest();
+void AluffiTest();
+void BeckerTest();
+void OddsquareTest(int D);
+void PricemodelTest();
+void Bohachevsky1Test();
+void Bohachevsky2Test();
+void Camelback3Test();
+void DekkersTest();
+void ExponentialTest(int D);
+void GoldsteinTest();
+void GulfTest();
+void HelicalTest();
+void HosakiTest();
+void MontalvoTest(int D);
+void MccormickTest();
+void MieleTest();
+void MultigaussianTest();
+void Neumaier2Test();
+void PavianiTest();
+void PeriodicTest();
+void PowellTest();
+void SalomonTest(int D);
+void Schaffer2Test();
+void WoodTest();
+
+extern MYOPT opt;
+extern const int DMAX;
+extern double X[];
+extern double value;
+extern int s;
